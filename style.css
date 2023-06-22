@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+body{
+    font-family: 'Source code pro', monospace;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #02394A;
+    padding: 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+} 
+
+ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #043565;
+    border-radius: 15px;
+}
