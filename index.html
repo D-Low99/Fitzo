@@ -4,24 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu de navegacion</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css"> 
     
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+
+        <img src="./assets/img/Fitzo Sport.png" alt="logo de Fitzo"
+        class="logo">
+
+        <nav class="navbar">
             
-            <img src="./img/Fitzo.png" alt="">
-        
-            <ul class="navbar">
-                <li class="nav__link"><a href="#">Inicio</a></li>
-                <li class="nav__link"><a href="#">Productos</a></li>
-                <li class="nav__link"><a href="#">Take Away</a></li>
-                <li class="nav__link"><a href="#">Contacto</a></li>
+            <ul class="navbar__list">
+                <li ><a class="nav__link" href="#hero">Inicio</a></li>
+                <li ><a class="nav__link" href="#about">Productos</a></li>
+                <li ><a class="nav__link" href="#contact">Contacto</a></li>
             </ul>
+            
+            <img class="cart-icon" src="./assets/cart-icon.svg" alt="Carrito"
+            >
             
         </nav>
     </header>
-        
+
+    <main class="main">
+
+        <section id="hero">
+
+            <div class="hero-info">
+                <h1>Somos Fitzo Sport fabricantes de ropa deportiva</h1>
+                <p>
+                    Nos dedicamos principalmente a la venta por mayor a comerciantes, tambien en la personalizacion de conjuntos
+                    tanto para clubes o equipos deportivos. <span>Fitzo Sport</span> como tal tambien cuenta con envios al interior del pais,
+                    a su vez destacamos por la calidad de nuestros productos 
+
+                </p>
+                <div class="hero-bottom">
+                    <a href="#" class="catalogo-btn"> Catalogo</a>
+                    <a href="#" class="primary-btn"> WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-cart">
+                <img src="./assets/img/Remeras manga larga.jpeg" alt="Articulo 1">
+                <div class="hero-cart-info">
+                    <h3>Camisetas Térmicas Básicas</h3>
+                </div>
+
+                <div class="hero-cart-descrip">
+                    <div >
+                        
+                        <ul class="hero-cart-talles">
+                            <li>Talles del 6 al 16</li>
+                            <li>Calidad Lycra Termico Premium</li>
+                            <li>Colores: negro, blanco y azul</li>
+                        </ul>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section id="descripcion">
+            <div >
+                <p>Nuestra marca se especiliza en la fabricacion de ropa deportiva, trabajamos con materiales de excelente calidad para una mejor presentacion de nuestros productos a nuestros clientes. Ofrecemos tambien la personalizacion de nuestros productos, tanto para clubes y/o equipos. A su vez tambien brindamos la realizacion de pedidos para distintos puntos del interior del pais, retiro por nuestro local o punto de encontro en zonas aldeña, las formas de pago pueden ser atravez de mercado pago, pago facil, rapipago, tranferencia y efectivo(por nuestro local).</p>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer>
+
+    </footer>
+
+
+    
 </body>
 </html>
