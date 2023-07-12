@@ -376,7 +376,7 @@ footer img{
     }
 
     iframe{
-        width: 60%;
+        width: 50%;
         height: 450px;
     }
 
@@ -509,8 +509,8 @@ footer img{
     }
 
     iframe{
-        width: 60%;
-        height: 90%; 
+        width: 90%;
+        height: 50%; 
         border-radius: 30px;
     }
 }
