@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+
+    .navbar{
+        gap: 10px;
+
+    }
+
+    .navbar__list{
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: var(--background-2);
+        border: 2px solid var(--primary);
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        gap: 25px;
+        padding:  45px 30px;
+        z-index: 2;
+        display: none;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor:pointer;
+        order: 2;
+    }
+    
+    .menu-label img {
+        
+        width: 25px;
+        height: 20px;
+    }
+
+    #toggle-menu:checked + .navbar__list{
+        display: flex;
+    }
+
+}

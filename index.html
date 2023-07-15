@@ -6,6 +6,7 @@
     <title>Menu de navegacion</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/style.css"> 
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
     
 </head>
 <body>
@@ -16,16 +17,18 @@
 
         <nav class="navbar">
 
-            <label for="toggle-menu"><i class="fa-solid fa-bars"></i></i></label>
-            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="menu-label">
+                <img src="./assets/img/bars-solid.svg" alt="menu-icon" class="menu-icon">
+            </label>
+            <input type="checkbox" class="toggle-menu" id="toggle-menu">
             
             <ul class="navbar__list">
                 <li ><a class="nav__link" href="#hero">Inicio</a></li>
                 <li ><a class="nav__link" href="#about">Productos</a></li>
                 <li ><a class="nav__link" href="#contact">Contacto</a></li>
-                <li><img class="cart-icon" src="./assets/cart-icon.svg" alt="Carrito"></li>
             </ul>
             
+            <img class="cart-icon" src="./assets/cart-icon.svg" alt="Carrito">
         </nav>
     </header>
 
