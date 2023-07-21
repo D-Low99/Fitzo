@@ -192,4 +192,8 @@
         align-items: flex-start;
         padding: 20px;
     }
+
+    iframe{
+        height: 300px;
+    }
 }
