@@ -23,16 +23,23 @@
     --text-color: #e1d2d2;
     --img-color:#0E0E52;
     --home-color:#f5f5f5;
+    --fitzo-h1: linear-gradient(#449DD1,#78C0E0);
+    --fitzo-fondo: linear-gradient(#0D0D49,#4e0757);
 }
+
 .header{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--background-2);
+    background: #0D0D49;
+    box-shadow: 5px 5px 10px var(--primary);
     width: 100%;
     padding: 5px 30px 0px 30px;
     height: 65px;
     position: fixed;
+    top: 0;
+    z-index: 2;
     
 }
 
@@ -93,7 +100,7 @@
 }
 
 .main{
-    background: var(--background);
+    background: var(--fitzo-fondo);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +127,10 @@
 }
 .hero-info h1{
     font-size: 50px;
-    color: var(--text-color);
+    background: linear-gradient(#449DD1,#78C0E0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     
 }
 
@@ -131,7 +141,10 @@
 
 .hero-info p > span {
     font-weight: 1000;
-    color: var(--primary);
+    background: linear-gradient(#449DD1,#78C0E0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .hero-bottom{
@@ -142,12 +155,12 @@
 .hero-bottom a{
     padding: 10px 30px 10px 30px;
     border-radius: 30px;
-    border: 3px solid #0D0D49;
+    border: 3px solid var(--celeste-light);
 }
 
 .primary-btn{
     background: var(--text-color);
-    color: var(--primary);
+    font-weight: 600
 }
 
 .catalogo-btn{
@@ -165,10 +178,8 @@
 
 .hero-cart{
     padding: 15px;
-    background: var(--img-color);
+    border: 1px solid var(--celeste-light);
     border-radius: 1rem;
-    
-    
 }
 
 .hero-cart-info{
@@ -176,7 +187,10 @@
     font-size: 18px;
     display: flex;
     justify-content: center;
-    color: var(--text-color);
+    background: linear-gradient(to left, #449DD1,#78C0E0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     padding: 8px 10px 10px 10px;
 }
 
@@ -184,6 +198,9 @@
 .hero-cart-talles {
     color: var(--text-color);
     padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -235,6 +252,10 @@
 #info h2{
     font-size: 32px;
     font-weight: 800;
+    background: linear-gradient(to left, #449DD1,#78C0E0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .info-card img {
@@ -313,6 +334,10 @@
 .info-contact-footer h2{
     font-weight: 800;
     font-size: 30px;
+    background: linear-gradient(to left, #449DD1,#78C0E0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .info-contact{
@@ -339,7 +364,7 @@ iframe{
 }
 
 footer{
-    background: var(--background);
+    background: linear-gradient(to top, #0D0D49,#4e0757);
     display: flex;
     justify-content: center;
     align-items: center;
